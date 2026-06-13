@@ -43,11 +43,6 @@ The project is designed to be responsive, user-friendly, and mobile-friendly.
 ```text
 Fridge-Hero/
 │
-├── screenshots/
-│   ├── Home Page.jpg
-│   ├── Input.jpg
-│   └── Output.jpg
-│
 ├── index.html
 ├── style.css
 ├── script.js
