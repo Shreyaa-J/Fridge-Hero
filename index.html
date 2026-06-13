@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fridge Hero 🍳</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="container">
+
+        <h1>🍳 Fridge Hero</h1>
+
+        <p class="subtitle">
+            Turn simple ingredients into something surprisingly delicious!
+            <br>
+            Enter any three ingredients and let AI create a unique recipe for you.
+        </p>
+
+        <div class="input-section">
+
+            <input
+                type="text"
+                id="ingredient1"
+                placeholder="🥖 Ingredient 1 (e.g. Bread)"
+            >
+
+            <input
+                type="text"
+                id="ingredient2"
+                placeholder="🥚 Ingredient 2 (e.g. Eggs)"
+            >
+
+            <input
+                type="text"
+                id="ingredient3"
+                placeholder="🥜 Ingredient 3 (e.g. Peanut Butter)"
+            >
+
+            <button onclick="cookMagic()">
+                Cook Magic ✨
+            </button>
+
+        </div>
+
+        <div id="loadingText" class="loading">
+            🍳 Cooking something magical...
+        </div>
+
+        <div id="recipeCard" class="recipe-card">
+
+    <div class="empty-state">
+
+        <div class="recipe-icon">🍳</div>
+
+        <h3>Ready to Cook?</h3>
+
+        <p>
+            Enter any 3 ingredients above and click
+            <strong>Cook Magic ✨</strong>
+            to generate a delicious recipe.
+        </p>
+
+    </div>
+
+</div>
+
+    </div>
+
+    <footer>
+        Thank you for using <strong>Fridge Hero 🍳</strong>! <br>
+    </footer>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
