@@ -151,5 +151,5 @@ Through this project, I learned:
 
 **Shreya J.**
 
-Built with ❤️ using HTML, CSS, JavaScript, and Gemini AI.
+
 
